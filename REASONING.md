@@ -1,4 +1,5 @@
 1. Cost Reduction Strategy
+
 For a growing startup like Blys, every dollar spent on idle infrastructure is a dollar not spent on product innovation. I have optimized the AWS bill through three primary levers:
 
 a. NAT Gateway Consolidation: Standard AWS best practice suggests one NAT Gateway per Availability Zone (AZ) to ensure total isolation. However, NAT Gateways carry a high fixed hourly cost (~$32/month per gateway + data processing).
